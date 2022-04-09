@@ -143,7 +143,9 @@ public class TerrainGenerator : MonoBehaviour
 
                                     Destroy(worldTiles[i - (y + x * worldSize)]);
                                     worldTiles.Remove(worldTiles[i - (y + x * worldSize)]);
-                                } else {
+                                }
+                                else
+                                {
                                     Destroy(worldTiles[i - (y + x * worldSize)]);
                                     worldTiles.Remove(worldTiles[i - (y + x * worldSize)]);
                                 }
