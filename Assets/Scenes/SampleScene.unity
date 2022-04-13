@@ -257,7 +257,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0ea1312c8ff96574a91771619b5b89f7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 30
+  speed: 5
   jumpForce: 5
   isGrounded: 0
 --- !u!1 &280523953
@@ -303,13 +303,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: cce7886f8091ac342956ff979497ca98, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  worldSize: 100
   seed: 0
   noiseFreq: 0.05
-  Map: []
   MapTiles: []
-  tileRock: {fileID: 21300000, guid: a193fc35c92c6ab469adfb4d94121609, type: 3}
+  tileRock: {fileID: 21300000, guid: c2a58e71b36d79e499adcfd3ffe5d1ea, type: 3}
   tileBorder: {fileID: 21300000, guid: 31600009eb1c99e4d91610293220feba, type: 3}
+  tileWater: {fileID: 6138597578327959798, guid: 900b959f838b8b2478427142f3bc4602, type: 3}
 --- !u!1 &519420028
 GameObject:
   m_ObjectHideFlags: 0
